@@ -2,6 +2,8 @@ import React from 'react';
 
 const Note = ({ text, onDelete  }) => {
 
+console.log(`Note: ${text}`);
+
 const handleClick = () => { onDelete(); }
 
   return (
